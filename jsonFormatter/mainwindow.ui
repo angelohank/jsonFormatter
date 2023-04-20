@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1107</width>
+    <height>643</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:&quot;#595959&quot;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="lblTitulo">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: &quot;#3AA713&quot;</string>
+    </property>
+    <property name="text">
+     <string>JSON FORMATTER</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>1081</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPlainTextEdit" name="pte_input">
+       <property name="styleSheet">
+        <string notr="true">background-color:&quot;#9B9B9B&quot;</string>
+       </property>
+       <property name="placeholderText">
+        <string>Insira o texto</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPlainTextEdit" name="pte_output">
+       <property name="styleSheet">
+        <string notr="true">background-color:&quot;#9B9B9B&quot;</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>510</y>
+      <width>191</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QRadioButton" name="rb_json">
+       <property name="font">
+        <font>
+         <pointsize>17</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: &quot;#FFFFFF&quot;</string>
+       </property>
+       <property name="text">
+        <string>Json</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="rb_xml">
+       <property name="font">
+        <font>
+         <pointsize>17</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: &quot;#FFFFFF&quot;</string>
+       </property>
+       <property name="text">
+        <string>XML</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="btn_formatar">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>510</y>
+      <width>356</width>
+      <height>37</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>19</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:&quot;#0D6015&quot;; color: &quot;#FFFFFF&quot;</string>
+    </property>
+    <property name="text">
+     <string>Format</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_copy">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>40</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Copy</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1107</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
